@@ -1,0 +1,362 @@
+[
+  {
+    "data": {
+      "text": "根据相关管理规定，申请者需在每年三月前提交材料，逾期不予受理。审核工作分为初审、复核与公示三个阶段。公示期为十个工作日，期间接受实名异议。",
+      "para_id": "demo_info_01",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "informative"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "该地区的年降水量约为八百毫米，集中于六月至八月。主要粮食作物为水稻与小麦，复种指数达到百分之一百六十。近年来灌溉设施的覆盖率稳步提升。",
+      "para_id": "demo_info_02",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "informative"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "本产品采用锂离子电池，额定容量为五千毫安时。充电时间约为两小时，循环寿命超过五百次。机身重量二百一十克，支持 Type-C 接口充电。",
+      "para_id": "demo_info_03",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "informative"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "故乡的秋总是来得悄无声息。巷口的老槐树落下第一片黄叶时，我忽然想起了祖母的手，粗糙而温暖。那些远去的黄昏，如今都成了心底最柔软的角落。",
+      "para_id": "demo_expr_01",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "expressive"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "雨落在青石板上，溅起细碎的水花。他站在屋檐下，望着那条走过千百次的小路，眼眶忽然就热了。岁月带走了太多，却带不走这份眷恋。",
+      "para_id": "demo_expr_02",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "expressive"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "多年以后，当我再次翻开那本泛黄的日记，字里行间全是年轻的自己。原来我们从未真正告别，只是把怀念藏进了生活的褶皱里。何其有幸，曾经拥有。",
+      "para_id": "demo_expr_03",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "expressive"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "让我们携起手来，共同守护绿水青山！每个人都是环境的守护者，请您从今天做起，节约每一滴水。行动起来，美丽中国需要你我共同参与！",
+      "para_id": "demo_infec_01",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "infective"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "朋友们，机会稍纵即逝！立即加入我们，报名通道即将关闭。请务必在今晚十点前完成登记，千万不要错过这次难得的机会！",
+      "para_id": "demo_infec_02",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "infective"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "同学们，百日冲刺的号角已经吹响！我们必须全力以赴，用汗水浇灌梦想。请相信，坚持到底的人必将赢得属于自己的荣光！",
+      "para_id": "demo_infec_03",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "infective"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "本次招聘共设岗位十二个，报名时间为五月十日至五月三十一日。笔试成绩占总成绩的百分之六十，面试占百分之四十。录用名单将在官网统一公布。",
+      "para_id": "demo_info_11",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "informative"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "据气象部门预测，本周将有两轮降雨过程，累计降水量三十至五十毫米。气温较常年同期偏低两至三摄氏度。请农户提前做好田间排涝准备。",
+      "para_id": "demo_info_12",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "informative"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "该条例自发布之日起施行，共分六章四十二条。其中第三章明确了各方主体的安全责任。违反相关条款的，将依法依规追究相应责任。",
+      "para_id": "demo_info_13",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "informative"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "外婆的厨房总飘着桂花糖芋苗的甜香。如今灶台还在，摇蒲扇的人却不在了。每当桂花开，我就觉得她从未走远，只是换了一种方式陪着我。",
+      "para_id": "demo_expr_11",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "expressive"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "那年的雪下得很大，站台上的告别仓促得来不及说再见。火车开动时，他在窗上呵出一团雾气，写下两个字，又被风抹去了。",
+      "para_id": "demo_expr_12",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "expressive"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "巷子深处的面馆开了三十年，汤底的火气从未断过。老板娘说，来吃面的老主顾走了一批又来一批，她记得每一张熟悉的脸。",
+      "para_id": "demo_expr_13",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "expressive"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "关爱空巢老人，从一次探望开始！诚邀您加入社区志愿服务队，每周只需一小时。您的陪伴，就是他们最渴望的温暖！赶快报名吧！",
+      "para_id": "demo_infec_11",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "infective"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "新书首发，限量五百册！现在下单即可获得作者签名版，先到先得。喜欢的朋友请抓紧时间，手慢无！",
+      "para_id": "demo_infec_12",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "infective"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "捐出一本书，点亮一个梦想！我们正在为山区儿童筹建第十座图书室。恳请大家踊跃捐赠，让知识的光照亮更远的角落！",
+      "para_id": "demo_infec_13",
+      "source_file": "synthetic_demo"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "infective"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

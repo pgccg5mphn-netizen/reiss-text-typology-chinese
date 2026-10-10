@@ -1,0 +1,372 @@
+{
+  "corpus": "corpus_relabeled_v27.json",
+  "n": 1165,
+  "group_fine_n": 31,
+  "routes": {},
+  "random_cv": {
+    "theory_13dim": {
+      "acc": 77.17,
+      "macro_f1": 0.769,
+      "per_class": {
+        "信息型": {
+          "P": 79.3,
+          "R": 72.8,
+          "F1": 75.9
+        },
+        "表情型": {
+          "P": 80.9,
+          "R": 82.3,
+          "F1": 81.6
+        },
+        "感染型": {
+          "P": 69.6,
+          "R": 77.2,
+          "F1": 73.2
+        }
+      },
+      "macro_P": 76.6,
+      "macro_R": 77.4,
+      "macro_F1_pct": 76.9,
+      "confusion": [
+        [
+          345,
+          62,
+          67
+        ],
+        [
+          40,
+          330,
+          31
+        ],
+        [
+          50,
+          16,
+          224
+        ]
+      ]
+    },
+    "char_tfidf": {
+      "acc": 87.64,
+      "macro_f1": 0.8791,
+      "per_class": {
+        "信息型": {
+          "P": 87.1,
+          "R": 88.0,
+          "F1": 87.5
+        },
+        "表情型": {
+          "P": 85.1,
+          "R": 86.8,
+          "F1": 85.9
+        },
+        "感染型": {
+          "P": 92.4,
+          "R": 88.3,
+          "F1": 90.3
+        }
+      },
+      "macro_P": 88.2,
+      "macro_R": 87.7,
+      "macro_F1_pct": 87.9,
+      "confusion": [
+        [
+          417,
+          41,
+          16
+        ],
+        [
+          48,
+          348,
+          5
+        ],
+        [
+          14,
+          20,
+          256
+        ]
+      ]
+    },
+    "word_tfidf_jieba": {
+      "acc": 86.09,
+      "macro_f1": 0.8644,
+      "per_class": {
+        "信息型": {
+          "P": 86.6,
+          "R": 84.2,
+          "F1": 85.3
+        },
+        "表情型": {
+          "P": 82.4,
+          "R": 87.5,
+          "F1": 84.9
+        },
+        "感染型": {
+          "P": 91.0,
+          "R": 87.2,
+          "F1": 89.1
+        }
+      },
+      "macro_P": 86.7,
+      "macro_R": 86.3,
+      "macro_F1_pct": 86.4,
+      "confusion": [
+        [
+          399,
+          56,
+          19
+        ],
+        [
+          44,
+          351,
+          6
+        ],
+        [
+          18,
+          19,
+          253
+        ]
+      ]
+    }
+  },
+  "logo": {
+    "theory_13dim": {
+      "acc": 69.61,
+      "macro_f1": 0.6774,
+      "per_class": {
+        "信息型": {
+          "P": 67.7,
+          "R": 73.0,
+          "F1": 70.3
+        },
+        "表情型": {
+          "P": 78.3,
+          "R": 80.3,
+          "F1": 79.3
+        },
+        "感染型": {
+          "P": 58.8,
+          "R": 49.3,
+          "F1": 53.7
+        }
+      },
+      "macro_P": 68.3,
+      "macro_R": 67.5,
+      "macro_F1_pct": 67.7,
+      "confusion": [
+        [
+          346,
+          64,
+          64
+        ],
+        [
+          43,
+          322,
+          36
+        ],
+        [
+          122,
+          25,
+          143
+        ]
+      ]
+    },
+    "char_tfidf": {
+      "acc": 71.07,
+      "macro_f1": 0.6427,
+      "per_class": {
+        "信息型": {
+          "P": 63.0,
+          "R": 88.6,
+          "F1": 73.6
+        },
+        "表情型": {
+          "P": 81.4,
+          "R": 85.3,
+          "F1": 83.3
+        },
+        "感染型": {
+          "P": 84.6,
+          "R": 22.8,
+          "F1": 35.9
+        }
+      },
+      "macro_P": 76.3,
+      "macro_R": 65.6,
+      "macro_F1_pct": 64.3,
+      "confusion": [
+        [
+          420,
+          47,
+          7
+        ],
+        [
+          54,
+          342,
+          5
+        ],
+        [
+          193,
+          31,
+          66
+        ]
+      ]
+    },
+    "word_tfidf_jieba": {
+      "acc": 68.58,
+      "macro_f1": 0.6016,
+      "per_class": {
+        "信息型": {
+          "P": 62.1,
+          "R": 85.0,
+          "F1": 71.8
+        },
+        "表情型": {
+          "P": 76.8,
+          "R": 86.8,
+          "F1": 81.5
+        },
+        "感染型": {
+          "P": 76.2,
+          "R": 16.6,
+          "F1": 27.2
+        }
+      },
+      "macro_P": 71.7,
+      "macro_R": 62.8,
+      "macro_F1_pct": 60.2,
+      "confusion": [
+        [
+          403,
+          60,
+          11
+        ],
+        [
+          49,
+          348,
+          4
+        ],
+        [
+          197,
+          45,
+          48
+        ]
+      ]
+    }
+  },
+  "consistency": {
+    "theory_vs_char_tfidf": {
+      "agreement_pct": 80.4,
+      "joint_right_pct": 73.4,
+      "joint_fail_pct": 8.6,
+      "only_theory_right_pct": 3.8,
+      "only_baseline_right_pct": 14.2,
+      "only_theory_right_n": 44,
+      "only_baseline_right_n": 166,
+      "per_class_agreement": {
+        "信息型": 80.2,
+        "表情型": 83.3,
+        "感染型": 76.9
+      },
+      "per_class_joint_fail": {
+        "信息型": 10.3,
+        "表情型": 8.0,
+        "感染型": 6.6
+      }
+    },
+    "theory_vs_word_tfidf_jieba": {
+      "agreement_pct": 79.5,
+      "joint_right_pct": 72.2,
+      "joint_fail_pct": 8.9,
+      "only_theory_right_pct": 5.0,
+      "only_baseline_right_pct": 13.9,
+      "only_theory_right_n": 58,
+      "only_baseline_right_n": 162,
+      "per_class_agreement": {
+        "信息型": 80.4,
+        "表情型": 82.0,
+        "感染型": 74.5
+      },
+      "per_class_joint_fail": {
+        "信息型": 12.2,
+        "表情型": 7.0,
+        "感染型": 6.2
+      }
+    }
+  },
+  "spearman": {
+    "char_tfidf": {
+      "F3_第三人称密度_to_expressive": {
+        "r": 0.63,
+        "p": 1.1925188645759755e-129
+      },
+      "F6_义务情态密度_to_infective": {
+        "r": 0.58,
+        "p": 1.1719283343604398e-105
+      },
+      "F4_事实认知密度_to_informative": {
+        "r": 0.448,
+        "p": 1.1729479133400836e-58
+      },
+      "F9_感叹句比例_to_expressive": {
+        "r": 0.328,
+        "p": 1.5078985428761679e-30
+      },
+      "F8_祈使句比例_to_infective": {
+        "r": 0.544,
+        "p": 7.130984252834438e-91
+      },
+      "F3_第三人称密度_to_infective": {
+        "r": -0.538,
+        "p": 3.0611965540508277e-88
+      }
+    },
+    "word_tfidf_jieba": {
+      "F3_第三人称密度_to_expressive": {
+        "r": 0.624,
+        "p": 1.5175498697709196e-126
+      },
+      "F6_义务情态密度_to_infective": {
+        "r": 0.559,
+        "p": 1.5987374093432384e-96
+      },
+      "F4_事实认知密度_to_informative": {
+        "r": 0.417,
+        "p": 3.4127998026025496e-50
+      },
+      "F9_感叹句比例_to_expressive": {
+        "r": 0.313,
+        "p": 7.836503649510443e-28
+      },
+      "F8_祈使句比例_to_infective": {
+        "r": 0.518,
+        "p": 7.710125795199675e-81
+      },
+      "F3_第三人称密度_to_infective": {
+        "r": -0.463,
+        "p": 8.055135909388244e-63
+      }
+    }
+  },
+  "lexical_overlap_control": {
+    "vocab_size": 832,
+    "word_tfidf_full_acc": 86.09,
+    "word_tfidf_stripped_acc": 85.41,
+    "acc_drop_pp": 0.68,
+    "spearman_full": {
+      "F3_第三人称密度_to_expressive": 0.624,
+      "F6_义务情态密度_to_infective": 0.559,
+      "F4_事实认知密度_to_informative": 0.417,
+      "F9_感叹句比例_to_expressive": 0.313,
+      "F8_祈使句比例_to_infective": 0.518,
+      "F3_第三人称密度_to_infective": -0.463
+    },
+    "spearman_stripped": {
+      "F3_第三人称密度_to_expressive": 0.618,
+      "F6_义务情态密度_to_infective": 0.53,
+      "F4_事实认知密度_to_informative": 0.407,
+      "F9_感叹句比例_to_expressive": 0.314,
+      "F8_祈使句比例_to_infective": 0.493,
+      "F3_第三人称密度_to_infective": -0.453
+    }
+  }
+}

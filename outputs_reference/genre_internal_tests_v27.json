@@ -1,0 +1,5 @@
+{
+  "non_gov_infective_recall": 0.7143,
+  "gov_info_vs_inf_balacc": 0.6368,
+  "brand_info_vs_exp_balacc": 0.9091
+}
