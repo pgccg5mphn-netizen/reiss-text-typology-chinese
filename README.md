@@ -102,14 +102,9 @@ numbers. On the demo corpus only Figure 1 is produced.
 ## Licence and citation
 
 The code is released under the MIT licence (see `LICENSE`). A citable,
-version-persistent DOI is available on Zenodo: [DOI to be added upon release].
+version-persistent DOI is available on Zenodo: https://doi.org/10.5281/zenodo.23273049.
 Please cite both the manuscript and the code repository if you reuse the code.
 
-## Licence and citation
-
-The code is released under the MIT licence (see `LICENSE`). A citable,
-version-persistent DOI is available on Zenodo: [DOI to be added upon release].
-Please cite both the manuscript and the code repository if you reuse the code.
 
 ## The 13 features
 
