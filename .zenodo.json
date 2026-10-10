@@ -1,0 +1,13 @@
+{
+  "title": "Analysis code for: From functional definitions to linguistic features: a quantitative test of Reiss's text typology in Chinese",
+  "creators": [
+    {"name": "Feng, Linjie", "affiliation": "Jiangxi Science and Technology Normal University, Nanchang, China"},
+    {"name": "Deng, Yaye", "affiliation": "Jiangxi Science and Technology Normal University, Nanchang, China"}
+  ],
+  "description": "Reproduction code for the manuscript. Implements 13 theory-driven feature extraction (feature_extractor_v9_4), logistic-regression classification with stratified five-fold cross-validation, character- and word-level TF-IDF baselines, leave-one-group-out validation, ablation, and within-type factor analysis. Reference outputs are provided in outputs_reference/. The annotated corpus itself is not included for licensing reasons; a synthetic demo corpus (corpus/demo_corpus.json) is provided for smoke-testing.",
+  "access_right": "open",
+  "license": "mit",
+  "upload_type": "software",
+  "keywords": ["text typology", "Reiss", "text classification", "Chinese", "translation studies", "quantitative validation"],
+  "language": "eng"
+}
